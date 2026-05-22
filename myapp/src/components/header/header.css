@@ -1,0 +1,42 @@
+.app_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  background-color: white;
+  box-shadow: 4px 4px 4px #ccc;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a {
+  font-size: 22px;
+  cursor: pointer;
+  text-decoration: none;
+  color: teal;
+  padding: 8px;
+}
+
+.navbar a:hover {
+  background-color: rgba(220, 254, 254, 0.6);
+}
+
+.logo_title {
+  color: sandybrown;
+  font-size: 28px;
+}
+
+.app_logo_container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
