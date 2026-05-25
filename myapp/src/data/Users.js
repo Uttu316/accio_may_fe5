@@ -1,0 +1,42 @@
+export const USERS = [
+  {
+    id: "2323232",
+    name: "Pari Sharma",
+    city: "Wonderland",
+    age: 19,
+    avatar: "https://randomuser.me/api/portraits/women/32.jpg",
+    gender: "female",
+  },
+  {
+    id: "2343432323",
+    name: "Saketh Jhunjhunwala",
+    city: "Disneyland",
+    age: 22,
+    avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+    gender: "male",
+  },
+  {
+    id: "32372837",
+    name: "Vaishnavi Aluwalia",
+    city: "Jaipur",
+    age: 23,
+    avatar: "https://randomuser.me/api/portraits/women/31.jpg",
+    gender: "female",
+  },
+  {
+    id: "43843847893",
+    name: "Akash kapoor",
+    city: "Swiss Alps",
+    age: 22,
+    avatar: "https://randomuser.me/api/portraits/men/2.jpg",
+    gender: "male",
+  },
+  {
+    id: "434388700",
+    name: "Utkarsh Gupta",
+    city: "Agra",
+    age: 26,
+    avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+    gender: "male",
+  },
+];
