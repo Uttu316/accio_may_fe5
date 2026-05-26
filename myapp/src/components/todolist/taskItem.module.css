@@ -1,0 +1,74 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  background: #313244;
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+.item:hover {
+  background: #45475a;
+}
+
+.title {
+  flex: 1;
+  font-size: 1rem;
+  color: #cdd6f4;
+  margin: 0;
+}
+
+.priority {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  margin: 0;
+}
+
+.high {
+  background: rgba(243, 139, 168, 0.2);
+  color: #f38ba8;
+}
+
+.medium {
+  background: rgba(249, 226, 175, 0.2);
+  color: #f9e2af;
+}
+
+.low {
+  background: rgba(166, 227, 161, 0.2);
+  color: #a6e3a1;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #6c7086;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.actionBtn:hover {
+  background: #585b70;
+  color: #cdd6f4;
+}
+
+.editBtn:hover {
+  color: #89b4fa;
+}
+
+.deleteBtn:hover {
+  color: #f38ba8;
+}
